@@ -90,6 +90,59 @@ void  btnCallback2(DFRobot_UI::sButton_t  &btn)  {
 }
 ```
 
+# setup 
+
+This project uses an Arduino Mega 2560, DFR0669 LCD Touch screen, 4 light emitting diodes(LED) ,RGB Tricolor LED, 3 220 ohm resistors and  a Tower Pro micro servo 9g 
+
+
+### 1)  LCD Touch Screen to the Arduino Mega :
+
+  | LCD pins 	 | Arduino Mega pins |
+  |------------|-------------------|
+  |VCC    |   any 5V               |
+  |GND     |  any GND |
+  |SCLK  | Digital Pin 52| 
+  |MOSI  |Digital Pin 51|
+  |MISO| Digital Pin 50|
+  |CS| Digital PIN 3|
+  |RES| Digital PIN 4|
+  |DC| Digital PIN 2|
+  |SCL| SCL 1|
+  |SDCS| SDA 1|
+
+###  2) Tricolored LED to Arduino Mega:
+When connecting the all RBG Tricolor LED pins to the Arduino Mega use a 220 ohm resistor as a junction 
+| RGB Tricolor Led | Arduino Mega pins |
+|------------|-------------------|
+|-  |   any GND               |
+|B    |  Digital Pin 35|
+|R | Digital Pin 30| 
+|G |Digital Pin 28|
+
+###  3) LED To Arduino Mega:
+You can use a breadboard for easier connection 
+| LEDs | Arduino Mega pins |
+|------------|-------------------|
+|cathode of all LEDs|   any GND               |
+|anode of 1st  LED  |  Digital Pin 24|
+|anode of 2nd LED | Digital Pin 23| 
+|anode of 3rd LED |Digital Pin 22|
+
+### 4)  Tower Pro micro servo 9g to Arduino Mega :
+| Tower Pro micro servo | Arduino Mega pins |
+|------------|-------------------|
+|orange wire|   Digital Pin 10              |
+|Brown Wire |  any GND|
+|Red wire| VCC| 
+
+
+
+
+
+
+
+
+
 
 `ui.draw();`
  - ui.draw(object, x, y, width, height)
