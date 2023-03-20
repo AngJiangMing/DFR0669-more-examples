@@ -3,6 +3,17 @@ Made during TP Experential Research Programme (ERP) in collaboration with Neo Yu
 
 ## General Guide
 
+. CODE EXPLANATION
+- Tableview / tabs
+- Buttons
+- Sliders
+- Texts
+
+. Set up
+- LCD Touch Screen to the Arduino Mega
+- Tricolored LED to Arduino Mega
+- LED to Arduino Mega
+- Tower Pro micro servo 9g to Arduino Mega
 
 
 # CODE EXPLANATION
@@ -108,7 +119,7 @@ ui.drawString(10,200,"bye c:",COLOR_RGB565_BLUE,ui.bgColor,3,0);
 `drawString()` allows you to display a text message on the LCD touchscreen
 - drawString( x, y, text message, text color , background color, font size, font display mode)
 
-# setup 
+# Set up 
 
 This project uses an Arduino Mega 2560, DFR0669 LCD Touch screen, 4 light emitting diodes(LED) ,RGB Tricolor LED, 3 220 ohm resistors and  a Tower Pro micro servo 9g 
 
