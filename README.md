@@ -41,12 +41,12 @@ void  tbCallback(void  *  highLightPage){
 
 
 ---
-`tbCallback` generates the UI to include tabs
-`case 1:` Displays ON and OFF buttons for users to control 3 LEDs (red, yellow, green)
-`case 2:`Displays a slider that allows users to control RGB tri-color LED. Depending on the slider's value, the LED would either turn off or display RGB colors
-`case 3:` Displays three buttons that control the servo motor. 
-
+- `tbCallback` generates the UI to include tabs
+- `case 1:` Displays ON and OFF buttons for users to control 3 LEDs (red, yellow, green)
+- `case 2:`Displays a slider that allows users to control RGB tri-color LED. Depending on the slider's value, the LED would either turn off or display RGB colors
+- `case 3:` Displays three buttons that control the servo motor. 
 ---
+
 `tbCallback(void * highLightPage)` requires the case syntax to function, it automatically detects the number of cases and registers them as different tabs, and will construct tab buttons on the top of the screen.
 
 The code under each `case` will be what is displayed/constructed under each tab
