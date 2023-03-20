@@ -144,12 +144,6 @@ You can use a breadboard for easier connection
 
 
 
-`ui.draw();`
- - ui.draw(object, x, y, width, height)
 
-## Slider
-```
-DFRobot_UI::sSlider_t &slider = ui.creatSlider();
-slider.setCallback(changeColor);
-ui.draw(&slider,(screen.width() - slider.width) / 2,(screen.height() - 2 - 1) / 3 * 1 + 2 + 1);
+
 
