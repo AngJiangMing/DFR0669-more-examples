@@ -7,7 +7,7 @@ Made during TP Experential Research Programme (ERP) in collaboration with Neo Yu
 
 # CODE EXPLANATION
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+
 
 ## Tableview / tabs
 
