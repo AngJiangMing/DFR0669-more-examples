@@ -3,13 +3,13 @@ Made during TP Experential Research Programme (ERP) in collaboration with Neo Yu
 
 ## General Guide
 
-. CODE EXPLANATION
+ CODE EXPLANATION
 - Tableview / tabs
 - Buttons
 - Sliders
 - Texts
 
-. Set up
+ Set up
 - LCD Touch Screen to the Arduino Mega
 - Tricolored LED to Arduino Mega
 - LED to Arduino Mega
