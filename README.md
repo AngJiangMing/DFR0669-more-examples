@@ -89,6 +89,22 @@ void  btnCallback2(DFRobot_UI::sButton_t  &btn)  {
 	}
 }
 ```
+`ui.draw();`
+ - ui.draw( object, x, y, width, height )
+
+## Slider
+```
+DFRobot_UI::sSlider_t &slider = ui.creatSlider();
+slider.setCallback(changeColor);
+ui.draw(&slider,(screen.width() - slider.width) / 2,(screen.height() - 2 - 1) / 3 * 1 + 2 + 1);
+```
+- similar to button function
+## Text
+```
+ui.drawString(10,200,"bye c:",COLOR_RGB565_BLUE,ui.bgColor,3,0);
+```
+`drawString()` allows you to display a text message on the LCD touchscreen
+- drawString( x, y, text message, text color , background color, font size, font display mode)
 
 # setup 
 
