@@ -41,6 +41,7 @@ void  tbCallback(void  *  highLightPage){
 
 
 ---
+For Our Code:
 - `tbCallback` generates the UI to include tabs
 - `case 1:` Displays ON and OFF buttons for users to control 3 LEDs (red, yellow, green)
 - `case 2:` Displays a slider that allows users to control RGB tri-color LED. Depending on the slider's value, the LED would either turn off or display RGB colors
