@@ -137,7 +137,7 @@ This project uses an Arduino Mega 2560, DFR0669 LCD Touch screen, 4 light emitti
   |RES| Digital PIN 4|
   |DC| Digital PIN 2|
   |SCL| SCL 1|
-  |SDCS| SDA 1|
+  |SDA| SDA 1|
 
 ###  2) Tricolored LED to Arduino Mega:
 When connecting the all RBG Tricolor LED pins to the Arduino Mega use a 220 ohm resistor as a junction 
