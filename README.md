@@ -133,9 +133,9 @@ This project uses an Arduino Mega 2560, DFR0669 LCD Touch screen, 4 light emitti
   |SCLK  | Digital Pin 52| 
   |MOSI  |Digital Pin 51|
   |MISO| Digital Pin 50|
-  |CS| Digital PIN 3|
-  |RES| Digital PIN 4|
-  |DC| Digital PIN 2|
+  |CS| PWM 3|
+  |RES| PWM 4|
+  |DC| PWM 2|
   |SCL| SCL 1|
   |SDA| SDA 1|
 
