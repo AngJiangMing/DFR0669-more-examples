@@ -119,6 +119,25 @@ ui.drawString(10,200,"bye c:",COLOR_RGB565_BLUE,ui.bgColor,3,0);
 `drawString()` allows you to display a text message on the LCD touchscreen
 - drawString( x, y, text message, text color , background color, font size, font display mode)
 
+# GDL functions
+
+This section is to explain some features we used from the DFRobot GDL. 
+
+## Setting rotation of screen
+
+Prototype for setRotation
+```
+void DFRobot_GDL::setRotation(uint8_t r)
+```
+Prototypes are function declarations to add to your program to allow you to call it later on.
+
+To use this function, simply add it under `void setup()` 
+```
+void setup(){
+	screen.setRotation(1)
+}
+```
+
 # Set up 
 
 This project uses an Arduino Mega 2560, DFR0669 LCD Touch screen, 4 light emitting diodes(LED) ,RGB Tricolor LED, 3 220 ohm resistors and  a Tower Pro micro servo 9g 
