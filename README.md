@@ -75,14 +75,13 @@ The code under each `case` will be what is displayed/constructed under each tab
 `sButton_t & btn1 = ui.creatButton()` allows you to create a button on the LCD touch screen.
 - `sButton_t` is needed to create a button on the screen. 
 	- If you want to display another feature, e.g, a textbox, you will replace `sButton_t` with `sTextbox_t`
-- `btn1` > button name
-- `ui.creatButton()` > function to create the button
+- `btn1` is the button name
+- `ui.creatButton()` is the function to create the button
 
-`btn1.setText("0");` allows you to put text in the button
-`btn1.bgColor = COLOR_RGB565_BLUE;` sets the background color of the button
-`btn1.setCallback( <function name> );` calls back fun with button functions
-- `setCallback( function )`  sets the function to be called when button 1 is pressed.
-	- The parameter is an arbitrarily named,  defined function. 
+- `btn1.setText("0");` adds text inside the button
+- `btn1.bgColor = COLOR_RGB565_BLUE;` sets the background colour of the button
+- `btn1.setCallback( <function name> );` sets the function the button will call when pressed
+	- The parameter/function is an arbitrarily named,  defined function. 
 	- Example function is shown below
 ```
 void  btnCallback2(DFRobot_UI::sButton_t  &btn)  {
@@ -102,8 +101,14 @@ void  btnCallback2(DFRobot_UI::sButton_t  &btn)  {
 	}
 }
 ```
+
 `ui.draw();`
- - ui.draw( object, x, y, width, height )
+ - ui.draw(object, x, y, width, height)
+	- `&btn1` is the object
+	- `x` is the coordinate from the top of the screen relative to the printed text at the bottom of the screen
+	- `y` is the coordinate from the left of th screen relative to the printed text at the bottom of the screen
+	- `width` is the width of the button
+	- `height` is the height of the button
 
 ## Slider
 ```
